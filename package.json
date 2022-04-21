@@ -1,0 +1,22 @@
+{
+  "name": "docsifyDoc",
+  "version": "1.0.0",
+  "description": "知识点",
+  "scripts": {
+    "start": "npm run open && npm run dev",
+    "dev": "docsify serve DOC -p 6009",
+    "open": "node --max_old_space_size=32800 config/open.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luuman/docsifyDoc.git"
+  },
+  "author": "luuman <luumans@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luuman/docsifyDoc/issues"
+  },
+  "homepage": "https://blog.luuman.club/docsifyDoc/#/",
+  "dependencies": {},
+  "devDependencies": {}
+}
