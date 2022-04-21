@@ -4,7 +4,7 @@
   "description": "知识点",
   "scripts": {
     "start": "npm run open && npm run dev",
-    "dev": "docsify serve DOC -p 6009",
+    "dev": "docsify serve docs -p 6009",
     "open": "node --max_old_space_size=32800 config/open.js"
   },
   "repository": {
