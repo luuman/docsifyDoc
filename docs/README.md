@@ -8,8 +8,20 @@
 <!-- docsify-accordion -->
 <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
 <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
-```
 
+<!-- <script>
+  window.$docsify = {
+    select: {
+      detectOperatingSystem: {
+        enabled: false,
+        menuId: "operating-system"
+      },
+      sync: false,
+      theme: "classic"
+    },
+  }
+</script> -->
+```
 
 ```md
 // 语法
@@ -46,8 +58,10 @@ Introduction text for the FAQ page.
 一个现代化的，基于Preact和Github Issue的评论系统。
 
 ```html
+<!-- gitalk -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
+<!-- gitalk -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 <script>
@@ -70,6 +84,7 @@ Introduction text for the FAQ page.
     disqus: 'shortname'
   }
 </script>
+<!-- disqus -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
 ```
 
@@ -94,6 +109,7 @@ Introduction text for the FAQ page.
   }
 </script>
 
+<!-- docsify-select -->
 <script src="https://cdn.jsdelivr.net/npm/docsify-select@1"></script>
 ```
 
@@ -151,6 +167,8 @@ Linux + Git
     ga: 'UA-XXXXX-Y'
   }
 </script>
+
+<!-- ga -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
 ```
@@ -158,6 +176,7 @@ Linux + Git
 > 也可以通过 `data-ga` 配置 id。
 
 ```html
+<!-- ga -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-XXXXX-Y"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
 ```
@@ -166,6 +185,7 @@ Linux + Git
 
 
 ```html
+<!-- mermaid -->
 <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
 <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
 <script>mermaid.initialize({ startOnLoad: true });</script>
